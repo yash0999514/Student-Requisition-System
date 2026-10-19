@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# User/Local temp data
+uploads/*
+!uploads/.gitkeep
+generated_pdfs/*
+!generated_pdfs/.gitkeep
+!generated_pdfs/Requisition_CS2023045_Aarav_Sharma.pdf
+
+# Streamlit secrets (if any)
+.streamlit/secrets.toml
